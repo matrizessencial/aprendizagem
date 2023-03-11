@@ -3,6 +3,17 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
+st.set_page_config(
+    page_title="Aprendizagem - Matriz Essencial",
+    page_icon="me.png",
+    layout="centered",
+    initial_sidebar_state="auto",
+    menu_items={
+        'Get Help': 'https://www.matrizessencial.com.br',
+        'Report a bug': "https://www.matrizessencial.com.br",
+        'About': "Desenvolvido por code.py Programação - https://www.codepy.com.br"
+    }
+)
 
 col1, col2, col3 = st.columns(3)
 
